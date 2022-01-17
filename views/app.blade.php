@@ -18,8 +18,6 @@ header {
 
 }
 
-
-
 footer {
 
     border-radius: 6px;

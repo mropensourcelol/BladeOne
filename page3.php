@@ -7,3 +7,4 @@ $cache = __DIR__.'/cache';
 $blade = new BladeOne($views, $cache, BladeOne::MODE_DEBUG);
 
 echo $blade->run("page3",array());
+  
