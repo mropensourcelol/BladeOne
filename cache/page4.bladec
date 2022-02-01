@@ -5,4 +5,5 @@
 <h1>Page 4</h1>
 
 <?php $this->stopSection(); ?>
+
 <?php if (isset($_shouldextend[1])) { echo $this->runChild('app'); } ?>
