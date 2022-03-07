@@ -19,21 +19,19 @@
       <li><a href="index.php">Home Page</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="login.php"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+      <li><a href="register.php"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
     </ul>
   </div>
 
 </nav>
-
-
 
 <div class="container my-4">
     <div class="row text-center">
       <!--Grid column-->
       <div class="col-md-6 mb-4">
         <h2 class="my-5 h2">Intricate learning environments</h2>
-        <img class="rounded-circle" alt="100x100" src="wimage.png"
+        <img class="rounded-circle " alt="100x100" src="wimage.png"
           data-holder-rendered="true">
       </div>
       <div class="col-md-6 mb-4">
