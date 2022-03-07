@@ -8,6 +8,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+<style>
+  img {
+  width: 490px;
+  height: 490px;
+  border:2px solid black;
+  background: url(img/duck.png) no-repeat;
+  -moz-box-shadow: 0px 6px 5px #ccc;
+  -webkit-box-shadow: 0px 6px 5px #ccc;
+  box-shadow: 0px 6px 5px #ccc;
+  -moz-border-radius:190px;
+  -webkit-border-radius:190px;
+  border-radius:190px;
+}
+</style>
+
 <body>
 
 <nav class="navbar navbar-inverse">
@@ -30,7 +45,7 @@
     <div class="row text-center">
       <!--Grid column-->
       <div class="col-md-6 mb-4">
-        <h2 class="my-5 h2">Intricate learning environments</h2>
+        <div class= " img"> <h2 class="my-5 h2">Intricate learning environments</h2> </div>
         <img class="rounded-circle " alt="100x100" src="wimage.png"
           data-holder-rendered="true">
       </div>
