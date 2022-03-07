@@ -1,55 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <title>The App Template :)</title>
-
-    <style>
-
-header {
-    border-radius: 6px;
-    padding: 30px;
-    border: 1px solid red;
-    background: red;
-
-}
-
-footer {
-
-    border-radius: 6px;
-    padding: 30px;
-    border: 1px solid red;
-    background: red;
-    
-}
-</style>
-
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<header>
-    HEADER HEADER
-</header>
-<main>
-    @yield('content')
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">GibJohn Tutoring</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.php">Home Page</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
 
-    <p> Some Links to differant sites </p>
+</nav>
 
-    <a href="page2.php"> This is Page 2 </a>
-    <br/>
-    <a href="index.php"> HomePage </a>
-    <br/>
-    <a href="page3.php"> Page3 </a>
-    <br/>
-    <a href="page4.php"> Page4 </a>
-</main>
-<footer>
-    FOOTER HERE
-</footer>
+
+
+<div class="container my-4">
+    <div class="row text-center">
+      <!--Grid column-->
+      <div class="col-md-6 mb-4">
+        <h2 class="my-5 h2">Intricate learning environments</h2>
+        <img class="rounded-circle" alt="100x100" src="wimage.png"
+          data-holder-rendered="true">
+      </div>
+      <div class="col-md-6 mb-4">
+
+        <h2 class="my-5 h2"><p class="text-right">Welcome to GibJohn Tutoring - The digital tutoring solution for all age ranges and individuals seeking deep learning.</p></h2>
+
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+
+
+
+
+
 
 </body>
 </html>
