@@ -2,7 +2,6 @@
 
 @section('content')
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,15 +12,12 @@
 </head>
 <body>
 
-
 <?php 
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "task6";
 ?>
-
-
 <?php
 
 
